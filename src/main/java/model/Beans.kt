@@ -48,7 +48,7 @@ data class FamiliaBean(val idFamilia: String = "", val familia: String = "", val
 
 
 data class LineaCompraBean(val linCompra: Int = 0, val idCompra: Int = 0, val idPescado: Int = 0,
-                           val kilos: Float = 0f, val precio: Float =0f, val importe: Float = 0f,
+                           val kilos: Float = 0f, val precio: Float = 0f, val importe: Float = 0f,
                            val idBarco: Int = 0, val lote: String = "", val cajas: String = "",
                            val suFao: String = "", val suLote: String = "", val suDescripcion: String = "",
                            val cifBuque: String = "", val nombreBuque: String = "", val idFamilia: String = "",
@@ -56,10 +56,16 @@ data class LineaCompraBean(val linCompra: Int = 0, val idCompra: Int = 0, val id
                            val gasto: String = "", val kgUd: Int = 0, val idArte: Int = 0)
 
 data class LineaPedidoBean(val linPedido: Int = 0, val idPedido: Int = 0, val fecha: Date = Date.from(Instant.now()),
-                           val cantidad: Int = 0, val idFamilia: String = "", val calibre: Int = 0, val calidad: Int =0,
+                           val cantidad: Int = 0, val idFamilia: String = "", val calibre: Int = 0, val calidad: Int = 0,
                            val precio: Float = 0f, val concepto: String = "")
 
 data class PedidoBean(val idPedido: Int = 0, val fecha: Date = Date.from(Instant.now()), val idComprador: String = "",
                       val estado: String = "", val portes: Float = 0f, val idTransportista: Int = 0)
 
+data class TarifaPortesBean(val idTransportista: Int = 0, val idDir: Int = 0, val tarifa: Float = 0f)
 
+data class TipoCajaBean(val idCaja: String = "", val descripcion: String = "", val kgUd: Int = 0, val gasto: Float = 0f)
+
+data class TransportistaBean(val idTransportista: Int = 0, val nombre: String = "", val cif: String = "", val direccion: String = "",
+                             val poblacion: String = "", val provincia: String = "", val cp: String = "", val perContacto: String = "",
+                             val telefono: String = "", val email: String = "")
