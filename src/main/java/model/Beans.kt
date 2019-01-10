@@ -1,8 +1,8 @@
 package model
 
+import org.joda.time.DateTime
 import java.time.Instant
 import java.util.*
-
 /**
  * Created by Beruto on 27/3/18. Project -> ProductManager
  */
@@ -38,7 +38,7 @@ data class CofradiaBean(val idCofradia: Int = 0, val poblacion: String = "", val
                         val gastoCaja: Float = 0f, val gastoVenta: Float = 0f, val porteIncluido: Int = 0,
                         val idZona: Int = 0)
 
-data class CompraBean(val idCompra: Int = 0, val fecha: Date = Date.from(Instant.now()), val idCofradia: Int = 0,
+data class CompraBean(val idCompra: Int = 0, val fecha: DateTime = DateTime.now(), val idCofradia: Int = 0,
                       val salb: String? = "", val gastoSubasta: Float = 0f, val idZona: Int = 0,
                       val porteIncluido: Int = 0)
 
