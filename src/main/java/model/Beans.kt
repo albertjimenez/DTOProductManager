@@ -21,8 +21,8 @@ data class ClientBean(val idCliente: Int = 0, val cif: String = "", val nombre: 
                       val formaContacto: String = "", val contacto: String = "", val fax: String = "",
                       val email: String = "", val serie: String = "", val ccodcli: String = "", val re: Int = 0,
                       val ntipoiva: Int = 0, val tipoFacturacion: String = "", val devuelveEnv: Int = 0,
-                      val fechaAlta: Date = Date.from(Instant.now()),
-                      val fechaBaja: Date = Date.from(Instant.now()),
+                      val fechaAlta:  DateTime = DateTime.now(),
+                      val fechaBaja:  DateTime = DateTime.now(),
                       val observaciones: String = "", val tcomision: String = "", val pagaenv: Int = 0,
                       val idAgente: Int = 0)
 
@@ -55,11 +55,11 @@ data class LineaCompraBean(val linCompra: Int = 0, val idCompra: Int = 0, val id
                            val calibre: Int = 0, val calidad: Int = 0, val tipoCaja: String = "",
                            val gasto: String = "", val kgUd: Int = 0, val idArte: Int = 0)
 
-data class LineaPedidoBean(val linPedido: Int = 0, val idPedido: Int = 0, val fecha: Date = Date.from(Instant.now()),
+data class LineaPedidoBean(val linPedido: Int = 0, val idPedido: Int = 0, val fecha: DateTime = DateTime.now(),
                            val cantidad: Float = 0f, val idFamilia: String = "", val calibre: Int = 0, val calidad: Int = 0,
                            val precio: Float = 0f, val concepto: String = "")
 
-data class PedidoBean(val idPedido: Int = 0, val fecha: Date = Date.from(Instant.now()), val idComprador: String = "",
+data class PedidoBean(val idPedido: Int = 0, val fecha:  DateTime = DateTime.now(), val idComprador: String = "",
                       val estado: String = "", val portes: Float = 0f, val idTransportista: Int = 0)
 
 data class TarifaPortesBean(val idTransportista: Int = 0, val idDir: Int = 0, val tarifa: Float = 0f)
