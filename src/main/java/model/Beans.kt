@@ -29,7 +29,7 @@ data class ClientDirBean(val idDir: Int = 0, val idCliente: Int = 0, val alias: 
                          val direccion: String? = "", val poblacion: String? = "", val cp: String? = "",
                          val provincia: String? = "", val gasto: Float? = 0f, val etiqueta: Int? = 0,
                          val email: String? = "", val telefono: String? = "", val portes: Float? = 0f,
-                         val idTransportista: Int? = 0, val porDefecto: Int? = 0)
+                         val idTransportista: Int? = 0, val porDefecto: Boolean? = false)
 
 data class CofradiaBean(val idCofradia: Int = 0, val poblacion: String? = "", val direccion: String? = "",
                         val ciudad: String? = "", val provincia: String? = "", val nrs: String? = "", val cp: String? = "",
