@@ -19,10 +19,10 @@ data class ClientBean(val idCliente: Int = 0, val cif: String = "", val nombre: 
                       val ccodprov: String? = "", val cnaccli: String? = "", val gasto: Float? = 0.0f,
                       val formaContacto: String? = "", val contacto: String? = "", val fax: String? = "",
                       val email: String? = "", val serie: String? = "", val ccodcli: String? = "", val re: Boolean? = false,
-                      val ntipoiva: Int? = 0, val tipoFacturacion: String? = "", val devuelveEnv: Int? = 0,
+                      val ntipoiva: Int? = 0, val tipoFacturacion: String? = "", val devuelveEnv: Boolean? = false,
                       val fechaAlta: DateTime? = DateTime.now(),
                       val fechaBaja: DateTime? = DateTime.now(),
-                      val observaciones: String? = "", val tcomision: String? = "", val pagaenv: Int? = 0,
+                      val observaciones: String? = "", val tcomision: String? = "", val pagaenv: Boolean? = true,
                       val idAgente: Int? = 0)
 
 data class ClientDirBean(val idDir: Int = 0, val idCliente: Int = 0, val alias: String? = "",
