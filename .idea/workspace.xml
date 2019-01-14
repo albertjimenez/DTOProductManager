@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a35d3803-0c13-49aa-b98c-fcd0101b0650" name="Default" comment="testing null on CompraBean - salb">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a35d3803-0c13-49aa-b98c-fcd0101b0650" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="Beans.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Beans.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="309">
+              <caret line="31" column="40" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="46" />
               <folding>
                 <element signature="e#15#88#0" expanded="true" />
               </folding>
@@ -59,6 +58,9 @@
     <findStrings>
       <find>idFam</find>
       <find>val idFam</find>
+      <find>Date</find>
+      <find>DateTi</find>
+      <find>DateTim</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,7 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -157,6 +158,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +234,8 @@
       <workItem from="1547067108094" duration="465000" />
       <workItem from="1547111877661" duration="545000" />
       <workItem from="1547118157588" duration="20000" />
-      <workItem from="1547118355950" duration="1871000" />
+      <workItem from="1547118355950" duration="2281000" />
+      <workItem from="1547223588177" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="New exceptions and Beans">
       <created>1546942431232</created>
@@ -276,15 +279,21 @@
       <option name="project" value="LOCAL" />
       <updated>1547120281167</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Datetime fixed">
+      <created>1547121644244</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547121644244</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8442000" />
+    <option name="totallyTimeSpent" value="8859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -294,12 +303,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32956383" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17285945" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17528272" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
@@ -331,9 +340,34 @@
     <MESSAGE value="Alter table client column devuelveEnv" />
     <MESSAGE value="testing null on CompraBean - salb" />
     <MESSAGE value="Trying JODA TIME" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying JODA TIME" />
+    <MESSAGE value="Datetime fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Datetime fixed" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/MyExceptions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Beans.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="40" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="e#15#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -508,16 +542,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/S.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/S.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -527,8 +552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Beans.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        <state relative-caret-position="309">
+          <caret line="31" column="40" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="46" />
           <folding>
             <element signature="e#15#88#0" expanded="true" />
           </folding>
