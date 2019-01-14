@@ -39,7 +39,7 @@ data class CofradiaBean(val idCofradia: Int = 0, val poblacion: String = "", val
 
 data class CompraBean(val idCompra: Int = 0, val fecha: DateTime = DateTime.now(), val idCofradia: Int = 0,
                       val salb: String? = "", val gastoSubasta: Float = 0f, val idZona: Int? = 0,
-                      val porteIncluido: Int = 0)
+                      val porteIncluido: Boolean = false)
 
 data class FamiliaBean(val idFamilia: String = "", val familia: String = "", val cientifico: String = "",
                        val fao: String = "", val tipoIva: String = "", val etiqueta: Int = 0,
