@@ -18,7 +18,7 @@ data class ClientBean(val idCliente: Int = 0, val cif: String = "", val nombre: 
                       val cdircli: String = "", val cppobcli: String? = "", val provincia: String? = "",
                       val ccodprov: String? = "", val cnaccli: String? = "", val gasto: Float? = 0.0f,
                       val formaContacto: String? = "", val contacto: String? = "", val fax: String? = "",
-                      val email: String? = "", val serie: String? = "", val ccodcli: String? = "", val re: Int? = 0,
+                      val email: String? = "", val serie: String? = "", val ccodcli: String? = "", val re: Boolean? = false,
                       val ntipoiva: Int? = 0, val tipoFacturacion: String? = "", val devuelveEnv: Int? = 0,
                       val fechaAlta: DateTime? = DateTime.now(),
                       val fechaBaja: DateTime? = DateTime.now(),

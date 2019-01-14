@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a35d3803-0c13-49aa-b98c-fcd0101b0650" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Beans.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Beans.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="Beans.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Beans.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+            <state relative-caret-position="120">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -234,7 +233,7 @@
       <workItem from="1547118157588" duration="20000" />
       <workItem from="1547118355950" duration="2281000" />
       <workItem from="1547223588177" duration="7000" />
-      <workItem from="1547484450163" duration="846000" />
+      <workItem from="1547484450163" duration="1517000" />
     </task>
     <task id="LOCAL-00001" summary="New exceptions and Beans">
       <created>1546942431232</created>
@@ -299,11 +298,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547485090218</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="optionals on Compras">
+      <created>1547485309848</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1547485309848</updated>
+    </task>
+    <task id="LOCAL-00011" summary="optionals, optionals everywhere">
+      <created>1547485862133</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1547485862133</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9705000" />
+    <option name="totallyTimeSpent" value="10376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -357,7 +370,9 @@
     <MESSAGE value="Datetime fixed" />
     <MESSAGE value="compra bean optional idZona" />
     <MESSAGE value="fixed boolean on compras PorteIncluido" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed boolean on compras PorteIncluido" />
+    <MESSAGE value="optionals on Compras" />
+    <MESSAGE value="optionals, optionals everywhere" />
+    <option name="LAST_COMMIT_MESSAGE" value="optionals, optionals everywhere" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -586,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Beans.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+        <state relative-caret-position="120">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
         </state>
       </provider>
     </entry>
