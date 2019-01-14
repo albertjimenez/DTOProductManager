@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a35d3803-0c13-49aa-b98c-fcd0101b0650" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Beans.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Beans.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,11 +28,8 @@
       <file leaf-file-name="Beans.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Beans.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="31" column="40" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="46" />
-              <folding>
-                <element signature="e#15#88#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -119,8 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,7 +155,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,6 +234,7 @@
       <workItem from="1547118157588" duration="20000" />
       <workItem from="1547118355950" duration="2281000" />
       <workItem from="1547223588177" duration="7000" />
+      <workItem from="1547484450163" duration="846000" />
     </task>
     <task id="LOCAL-00001" summary="New exceptions and Beans">
       <created>1546942431232</created>
@@ -286,14 +285,29 @@
       <option name="project" value="LOCAL" />
       <updated>1547121644244</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="compra bean optional idZona">
+      <created>1547484616209</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1547484616209</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed boolean on compras PorteIncluido">
+      <created>1547485090218</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1547485090218</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8859000" />
+    <option name="totallyTimeSpent" value="9705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -308,7 +322,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17528272" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17770597" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
@@ -341,7 +355,12 @@
     <MESSAGE value="testing null on CompraBean - salb" />
     <MESSAGE value="Trying JODA TIME" />
     <MESSAGE value="Datetime fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Datetime fixed" />
+    <MESSAGE value="compra bean optional idZona" />
+    <MESSAGE value="fixed boolean on compras PorteIncluido" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed boolean on compras PorteIncluido" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -362,9 +381,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="31" column="40" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="46" />
-          <folding>
-            <element signature="e#15#88#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/MyExceptions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Beans.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="40" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -386,9 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="41" column="30" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="e#15#88#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -535,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/MyExceptions.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/S.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -550,13 +577,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/MyExceptions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Beans.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="31" column="40" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="46" />
-          <folding>
-            <element signature="e#15#88#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
         </state>
       </provider>
     </entry>
