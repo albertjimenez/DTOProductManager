@@ -27,8 +27,8 @@
       <file leaf-file-name="Beans.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Beans.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="303">
+              <caret line="24" column="112" selection-start-line="24" selection-start-column="112" selection-end-line="24" selection-end-column="112" />
             </state>
           </provider>
         </entry>
@@ -58,6 +58,7 @@
       <find>Date</find>
       <find>DateTi</find>
       <find>DateTim</find>
+      <find>re</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -233,7 +234,7 @@
       <workItem from="1547118157588" duration="20000" />
       <workItem from="1547118355950" duration="2281000" />
       <workItem from="1547223588177" duration="7000" />
-      <workItem from="1547484450163" duration="1517000" />
+      <workItem from="1547484450163" duration="2062000" />
     </task>
     <task id="LOCAL-00001" summary="New exceptions and Beans">
       <created>1546942431232</created>
@@ -312,11 +313,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547485862133</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="re attribute on clients">
+      <created>1547486131127</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1547486131127</updated>
+    </task>
+    <task id="LOCAL-00013" summary="me cago en SQLServer, -1 es True 0 es False">
+      <created>1547486375810</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1547486375810</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10376000" />
+    <option name="totallyTimeSpent" value="10921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -372,7 +387,9 @@
     <MESSAGE value="fixed boolean on compras PorteIncluido" />
     <MESSAGE value="optionals on Compras" />
     <MESSAGE value="optionals, optionals everywhere" />
-    <option name="LAST_COMMIT_MESSAGE" value="optionals, optionals everywhere" />
+    <MESSAGE value="re attribute on clients" />
+    <MESSAGE value="me cago en SQLServer, -1 es True 0 es False" />
+    <option name="LAST_COMMIT_MESSAGE" value="me cago en SQLServer, -1 es True 0 es False" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -601,8 +618,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Beans.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="303">
+          <caret line="24" column="112" selection-start-line="24" selection-start-column="112" selection-end-line="24" selection-end-column="112" />
         </state>
       </provider>
     </entry>

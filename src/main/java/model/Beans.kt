@@ -14,7 +14,7 @@ data class AgentBean(val id: Int = 0,
                      val provincia: String? = "",
                      val etiqueta: Int? = 0)
 
-data class ClientBean(val idCliente: Int = 0, val cif: String = "", val nombre: String = "",
+data class ClientBean(val idCliente: Int = 0, val cif: String? = "", val nombre: String = "",
                       val cdircli: String = "", val cppobcli: String? = "", val provincia: String? = "",
                       val ccodprov: String? = "", val cnaccli: String? = "", val gasto: Float? = 0.0f,
                       val formaContacto: String? = "", val contacto: String? = "", val fax: String? = "",
