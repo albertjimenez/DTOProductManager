@@ -34,7 +34,7 @@ data class ClientDirBean(val idDir: Int = 0, val idCliente: Int = 0, val alias: 
 data class CofradiaBean(val idCofradia: Int = 0, val poblacion: String? = "", val direccion: String? = "",
                         val ciudad: String? = "", val provincia: String? = "", val nrs: String? = "", val cp: String? = "",
                         val cif: String? = "", val gastoSubasta: Float? = 0f, val gastoKg: Float? = 0f,
-                        val gastoCaja: Float? = 0f, val gastoVenta: Float? = 0f, val porteIncluido: Int? = 0,
+                        val gastoCaja: Float? = 0f, val gastoVenta: Float? = 0f, val porteIncluido: Boolean? = false,
                         val idZona: Int? = 0)
 
 data class CompraBean(val idCompra: Int = 0, val fecha: DateTime? = DateTime.now(), val idCofradia: Int = 0,
