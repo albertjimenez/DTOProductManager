@@ -64,7 +64,7 @@ data class PedidoBean(val idPedido: Int = 0, val fecha: DateTime = DateTime.now(
 
 data class TarifaPortesBean(val idTransportista: Int = 0, val idDir: Int = 0, val tarifa: Float? = 0f)
 
-data class TipoCajaBean(val idCaja: String = "", val descripcion: String? = "", val kgUd: Int? = 0, val gasto: Float? = 0f)
+data class TipoCajaBean(val idCaja: String = "", val descripcion: String? = "", val kgUd: Float? = 0f, val gasto: Float? = 0f)
 
 data class TransportistaBean(val idTransportista: Int = 0, val nombre: String? = "", val cif: String? = "", val direccion: String? = "",
                              val poblacion: String? = "", val provincia: String? = "", val cp: String? = "", val perContacto: String? = "",
