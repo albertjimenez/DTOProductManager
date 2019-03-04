@@ -56,7 +56,7 @@ data class LineaCompraBean(val linCompra: Int = 0, val idCompra: Int = 0, val id
 
 data class LineaPedidoBean(val linPedido: Int = 0, val idPedido: Int = 0, val fecha: DateTime? = DateTime.now(),
                            val cantidad: Float? = 0f, val idFamilia: String? = "", val calibre: Int? = 0, val calidad: Int? = 0,
-                           val precio: Float? = 0f, val concepto: String? = "")
+                           val precio: Float? = 0f, val concepto: String? = "", val kilos: Float? = 0f)
 
 data class PedidoBean(val idPedido: Int = 0, val fecha: DateTime = DateTime.now(), val idComprador: String? = "",
                       val idVenta: Int? = 0,
