@@ -70,7 +70,7 @@ data class TransportistaBean(val idTransportista: Int = 0, val nombre: String? =
                              val poblacion: String? = "", val provincia: String? = "", val cp: String? = "", val perContacto: String? = "",
                              val telefono: String? = "", val email: String? = "")
 
-data class PartyMongoBean(val idPartida: Int = 0, val dateTime: DateTime? = DateTime.now(), val linCompra: Int = 0, val idCompra: Int = 0, val idPescado: Int = 0,
+data class PartyMongoBean(val idPartida: Int = 0, val dateTime: String, val linCompra: Int = 0, val idCompra: Int = 0, val idPescado: Int = 0,
                           val kilos: Float? = 0f, val precio: Float? = 0f, val importe: Float? = 0f,
                           val idBarco: Int? = 0, val lote: String? = "", val cajas: String? = "",
                           val suFao: String? = "", val suLote: String? = "", val suDescripcion: String? = "",
